@@ -33,7 +33,7 @@ function TeamForm(props) {
     <div className="form">
       <Form onSubmit={subitForm}>
         <FormGroup>
-          <Label htmlFor="name">Name</Label>
+          <Label htmlFor="name">Name: </Label>
           <Input
             type="text"
             id="name"
@@ -45,7 +45,7 @@ function TeamForm(props) {
           />
         </FormGroup>
         <FormGroup>
-          <Label htmlFor="email">Email</Label>
+          <Label htmlFor="email">Email: </Label>
           <Input
             type="email"
             id="email"
@@ -57,7 +57,7 @@ function TeamForm(props) {
           />
         </FormGroup>
         <FormGroup>
-          <Label htmlFor="role">Project Role</Label>
+          <Label htmlFor="role">Project Role: </Label>
           <Input
             type="text"
             id="role"
@@ -68,7 +68,7 @@ function TeamForm(props) {
             required
           />
         </FormGroup>
-        <Button type="submit">
+        <Button className="formButton" type="submit">
           {!editMember ? "Add Team Member" : "Edit Team Member"}
         </Button>
       </Form>

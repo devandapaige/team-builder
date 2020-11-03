@@ -13,11 +13,11 @@ const editTeamMember = (teammate) => {
               <Card key={teammate.id} className="card">
                   <CardBody>
                       <CardText>
-                          <CardTitle>{teammate.name}</CardTitle>
-                          <CardText>{teammate.email}</CardText>
-                          <CardText>{teammate.role}</CardText>
+                          <CardTitle className="name">{teammate.name}</CardTitle>
+                          <CardText className="email">{teammate.email}</CardText>
+                          <CardText className="role">{teammate.role}</CardText>
                       </CardText>
-                      <Button color='info' onClick={() => editTeamMember(teammate)}>Edit</Button>
+                      <Button className="edit" onClick={() => editTeamMember(teammate)}>Edit</Button>
                   </CardBody>
               </Card>
           ))

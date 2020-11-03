@@ -13,15 +13,40 @@ body {
   justify-content: center;
   align-items: center;
 }
+.formButton {
+  text-align: center;
+  padding: .5rem;
+  border: none;
+  background-color: darkgreen;
+  color: white;
+  border-radius: 12px;
+  margin-top: 1rem
+}
+.formButton:hover {
+  background-color: darkolivegreen;
+  cursor: pointer;
+}
 .tmCard {
 display: flex;
-flex-flow: wrap;
+flex-flow: wrap-reverse;
 justify-content: space-evenly;
 }
 .tmCard .card {
-  background-color: coral;
+  border: solid 3px coral;
   padding: 1.2rem;
   margin: 1rem;
   border-radius: 15px;
+  width: 12rem;
 }
-
+.name {
+  font-weight: 600;
+}
+.edit {
+  background-color: black;
+  color: white;
+  border: none;
+}
+.edit:hover {
+  background-color: darkblue;
+  cursor: pointer;
+}
