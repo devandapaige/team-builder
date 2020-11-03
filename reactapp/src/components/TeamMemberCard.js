@@ -10,7 +10,7 @@ const editTeamMember = (teammate) => {
   <div className="tmCard">
       {
           teamMembers.map( teammate => (
-              <Card key={teammate.id}>
+              <Card key={teammate.id} className="card">
                   <CardBody>
                       <CardText>
                           <CardTitle>{teammate.name}</CardTitle>

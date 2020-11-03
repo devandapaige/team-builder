@@ -1,3 +1,27 @@
 body {
   margin: 0;
 }
+.app {
+  padding: 1rem;
+  margin: 1rem;
+}
+.form {
+  background-color: aquamarine;
+  border-radius: 20px;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tmCard {
+display: flex;
+flex-flow: wrap;
+justify-content: space-evenly;
+}
+.tmCard .card {
+  background-color: coral;
+  padding: 1.2rem;
+  margin: 1rem;
+  border-radius: 15px;
+}
+
